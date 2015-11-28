@@ -17,7 +17,7 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class SpecialFolder
     {
         /// <summary>
-        /// The unique identifier for this item in the <code>/drive/special</code> collection
+        /// Gets or sets the unique identifier for this item in the <code>/drive/special</code> collection
         /// </summary>
         public string Name
         { get; set; }

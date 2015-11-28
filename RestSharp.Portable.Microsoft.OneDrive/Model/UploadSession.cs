@@ -16,19 +16,19 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class UploadSession
     {
         /// <summary>
-        /// URL where fragment PUT requests should be directed.
+        /// Gets or sets theURL where fragment PUT requests should be directed.
         /// </summary>
         public Uri UploadUrl
         { get; set; }
 
         /// <summary>
-        /// Date and time when the upload session expires.
+        /// Gets or sets the date and time when the upload session expires.
         /// </summary>
         public DateTimeOffset ExpirationDateTime
         { get; set; }
 
         /// <summary>
-        /// An array of byte ranges the server is missing. Not always a full list of the missing ranges.
+        /// Gets or sets the array of byte ranges the server is missing. Not always a full list of the missing ranges.
         /// </summary>
         public List<string> NextExpectedRanges
         { get; set; }

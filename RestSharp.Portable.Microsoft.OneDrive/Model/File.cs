@@ -13,7 +13,7 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class File
     {
         /// <summary>
-        /// The MIME type for the file.
+        /// Gets or sets the MIME type for the file.
         /// </summary>
         /// <remarks>
         /// This is determined by logic on the server and might not be the value
@@ -23,7 +23,7 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
         { get; set; }
 
         /// <summary>
-        /// Hashes of the file's binary content, if available.
+        /// Gets or sets the hashes of the file's binary content, if available.
         /// </summary>
         public HashesType Hashes
         { get; set; }

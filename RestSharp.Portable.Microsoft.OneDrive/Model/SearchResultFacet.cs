@@ -12,7 +12,7 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class SearchResultFacet
     {
         /// <summary>
-        /// A callback URL that is used to record telemetry information.
+        /// Gets or sets the callback URL that is used to record telemetry information.
         /// </summary>
         /// <remarks>
         /// The application should issue a GET on this URL if the user interacts with this item.

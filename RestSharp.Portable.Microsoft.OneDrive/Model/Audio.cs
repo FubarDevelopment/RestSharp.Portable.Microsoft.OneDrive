@@ -14,97 +14,97 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class Audio
     {
         /// <summary>
-        /// The title of the album for this audio file.
+        /// Gets or sets the title of the album for this audio file.
         /// </summary>
         public string Album
         { get; set; }
 
         /// <summary>
-        /// The artist named on the album for the audio file.
+        /// Gets or sets the artist named on the album for the audio file.
         /// </summary>
         public string AlbumArtist
         { get; set; }
 
         /// <summary>
-        /// The performing artist for the audio file.
+        /// Gets or sets the performing artist for the audio file.
         /// </summary>
         public string Artist
         { get; set; }
 
         /// <summary>
-        /// Bitrate expressed in kbps.
+        /// Gets or sets bitrate expressed in kbps.
         /// </summary>
         public string Bitrate
         { get; set; }
 
         /// <summary>
-        /// The name of the composer of the audio file.
+        /// Gets or sets the name of the composer of the audio file.
         /// </summary>
         public string Composers
         { get; set; }
 
         /// <summary>
-        /// Copyright information for the audio file.
+        /// Gets or sets copyright information for the audio file.
         /// </summary>
         public string Copyright
         { get; set; }
 
         /// <summary>
-        /// The number of the disc this audio file came from.
+        /// Gets or sets the number of the disc this audio file came from.
         /// </summary>
         public int? Disc
         { get; set; }
 
         /// <summary>
-        /// The total number of discs in this album.
+        /// Gets or sets the total number of discs in this album.
         /// </summary>
         public int? DiscCount
         { get; set; }
 
         /// <summary>
-        /// Duration of the audio file, expressed in milliseconds.
+        /// Gets or sets duration of the audio file, expressed in milliseconds.
         /// </summary>
         public long? Duration
         { get; set; }
 
         /// <summary>
-        /// The genre of this audio file.
+        /// Gets or sets the genre of this audio file.
         /// </summary>
         public string Genre
         { get; set; }
 
         /// <summary>
-        /// Indicates if the file is protected with digital rights management.
+        /// Gets or sets a value indicating whether the file is protected with digital rights management.
         /// </summary>
         public bool HasDrm
         { get; set; }
 
         /// <summary>
-        /// Indicates if the file is encoded with a variable bitrate.
+        /// Gets or sets a value indicating whether the file is encoded with a variable bitrate.
         /// </summary>
         public bool IsVariableBitrate
         { get; set; }
 
         /// <summary>
-        /// The title of the audio file.
+        /// Gets or sets the title of the audio file.
         /// </summary>
         public string Title
         { get; set; }
 
         /// <summary>
-        /// The number of the track on the original disc for this audio file.
+        /// Gets or sets the number of the track on the original disc for this audio file.
         /// </summary>
         public int? Track
         { get; set; }
 
         /// <summary>
-        /// The total number of tracks on the original disc for this audio file.
+        /// Gets or sets the total number of tracks on the original disc for this audio file.
         /// </summary>
         public int? TrackCount
         { get; set; }
 
         /// <summary>
-        /// The year the audio file was recorded.
+        /// Gets or sets the year the audio file was recorded.
         /// </summary>
         public int? Year
         { get; set; }

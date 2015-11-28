@@ -18,19 +18,19 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class Thumbnail
     {
         /// <summary>
-        /// The width of the thumbnail, in pixels.
+        /// Gets or sets the width of the thumbnail, in pixels.
         /// </summary>
         public int Width
         { get; set; }
 
         /// <summary>
-        /// The height of the thumbnail, in pixels.
+        /// Gets or sets the height of the thumbnail, in pixels.
         /// </summary>
         public int Height
         { get; set; }
 
         /// <summary>
-        /// The URL used to fetch the thumbnail content.
+        /// Gets or sets the URL used to fetch the thumbnail content.
         /// </summary>
         public Uri Url
         { get; set; }

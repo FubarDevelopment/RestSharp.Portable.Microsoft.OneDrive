@@ -13,13 +13,13 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class Identity
     {
         /// <summary>
-        /// Unique identifier for the identity.
+        /// Gets or sets the unique identifier for the identity.
         /// </summary>
         public string Id
         { get; set; }
 
         /// <summary>
-        /// The identity's display name.
+        /// Gets or sets the identity's display name.
         /// </summary>
         /// <remarks>
         /// Note that this may not always be available or up to date.

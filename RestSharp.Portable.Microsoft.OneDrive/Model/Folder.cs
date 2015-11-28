@@ -19,7 +19,7 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class Folder
     {
         /// <summary>
-        /// Number of children contained immediately within this container.
+        /// Gets or sets number of children contained immediately within this container.
         /// </summary>
         public long? ChildCount
         { get; set; }

@@ -17,13 +17,13 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class HashesType
     {
         /// <summary>
-        /// The CRC32 value of the file (if available)
+        /// Gets or sets the CRC32 value of the file (if available)
         /// </summary>
         public byte[] Crc32Hash
         { get; set; }
 
         /// <summary>
-        /// SHA1 hash for the contents of the file (if available)
+        /// Gets or sets the SHA1 hash for the contents of the file (if available)
         /// </summary>
         public byte[] Sha1Hash
         { get; set; }

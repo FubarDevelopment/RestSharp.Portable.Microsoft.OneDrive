@@ -13,19 +13,19 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class IdentitySet
     {
         /// <summary>
-        /// An Identity resource that represents a user.
+        /// Gets or sets the Identity resource that represents a user.
         /// </summary>
         public Identity User
         { get; set; }
 
         /// <summary>
-        /// An Identity resource that represents the application.
+        /// Gets or sets the Identity resource that represents the application.
         /// </summary>
         public Identity Application
         { get; set; }
 
         /// <summary>
-        /// An Identity resource that represents the device.
+        /// Gets or sets the Identity resource that represents the device.
         /// </summary>
         public Identity Device
         { get; set; }

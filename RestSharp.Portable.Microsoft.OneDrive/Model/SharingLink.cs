@@ -12,7 +12,7 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class SharingLink
     {
         /// <summary>
-        /// The access token that represents the current link permission.
+        /// Gets or sets the  access token that represents the current link permission.
         /// </summary>
         /// <remarks>
         /// You can use this in place of other authentication tokens to access the resource the
@@ -22,19 +22,19 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
         { get; set; }
 
         /// <summary>
-        /// The type of the link created.
+        /// Gets or sets the  type of the link created.
         /// </summary>
         public SharingLinkType Type
         { get; set; }
 
         /// <summary>
-        /// A URL that opens the item in the browser on the OneDrive website.
+        /// Gets or sets an URL that opens the item in the browser on the OneDrive website.
         /// </summary>
         public Uri WebUrl
         { get; set; }
 
         /// <summary>
-        /// The app the link is associated with.
+        /// Gets or sets the app the link is associated with.
         /// </summary>
         /// <remarks>
         /// The value is missing or null if the link is associated with an official Microsoft app.

@@ -10,31 +10,31 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class Quota
     {
         /// <summary>
-        /// Total allowed storage space, in bytes.
+        /// Gets or sets the total allowed storage space, in bytes.
         /// </summary>
         public long? Total
         { get; set; }
 
         /// <summary>
-        /// Total space used, in bytes.
+        /// Gets or sets the total space used, in bytes.
         /// </summary>
         public long Used
         { get; set; }
 
         /// <summary>
-        /// Total space remaining before reaching the quota limit, in bytes.
+        /// Gets or sets the total space remaining before reaching the quota limit, in bytes.
         /// </summary>
         public long? Remaining
         { get; set; }
 
         /// <summary>
-        /// Total space consumed by files in the recycle bin, in bytes.
+        /// Gets or sets the total space consumed by files in the recycle bin, in bytes.
         /// </summary>
         public long Deleted
         { get; set; }
 
         /// <summary>
-        /// Enumeration value that indicates the state of the storage space.
+        /// Gets or sets the enumeration value that indicates the state of the storage space.
         /// </summary>
         public QuotaState State
         { get; set; }

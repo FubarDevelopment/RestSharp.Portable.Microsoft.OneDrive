@@ -13,7 +13,7 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class ResultList<T>
     {
         /// <summary>
-        /// The returned collection
+        /// Gets or sets the returned collection
         /// </summary>
         public List<T> Value
         { get; set; }

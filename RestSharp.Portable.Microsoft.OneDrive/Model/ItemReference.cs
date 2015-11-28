@@ -17,19 +17,19 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class ItemReference
     {
         /// <summary>
-        /// Unique identifier for the Drive that contains the item.
+        /// Gets or sets the unique identifier for the Drive that contains the item.
         /// </summary>
         public string DriveId
         { get; set; }
 
         /// <summary>
-        /// Unique identifier for the item.
+        /// Gets or sets the unique identifier for the item.
         /// </summary>
         public string Id
         { get; set; }
 
         /// <summary>
-        /// Path that used to navigate to the item.
+        /// Gets or sets the path that used to navigate to the item.
         /// </summary>
         public string Path
         { get; set; }

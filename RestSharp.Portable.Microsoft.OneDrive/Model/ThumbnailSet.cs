@@ -19,31 +19,31 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class ThumbnailSet
     {
         /// <summary>
-        /// The id within the item.
+        /// Gets or sets the id within the item.
         /// </summary>
         public string Id
         { get; set; }
 
         /// <summary>
-        /// A 48x48 cropped thumbnail.
+        /// Gets or sets the 48x48 cropped thumbnail.
         /// </summary>
         public Thumbnail Small
         { get; set; }
 
         /// <summary>
-        /// A 176x176 scaled thumbnail.
+        /// Gets or sets the 176x176 scaled thumbnail.
         /// </summary>
         public Thumbnail Medium
         { get; set; }
 
         /// <summary>
-        /// A 1920x1920 scaled thumbnail.
+        /// Gets or sets the 1920x1920 scaled thumbnail.
         /// </summary>
         public Thumbnail Large
         { get; set; }
 
         /// <summary>
-        /// A custom thumbnail image or the original image used to generate other thumbnails.
+        /// Gets or sets the custom thumbnail image or the original image used to generate other thumbnails.
         /// </summary>
         public Thumbnail Source
         { get; set; }

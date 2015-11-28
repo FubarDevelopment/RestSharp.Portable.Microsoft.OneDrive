@@ -14,13 +14,13 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class Image
     {
         /// <summary>
-        /// Width of the image, in pixels.
+        /// Gets or sets the width of the image, in pixels.
         /// </summary>
         public long Width
         { get; set; }
 
         /// <summary>
-        /// Height of the image, in pixels.
+        /// Gets or sets the height of the image, in pixels.
         /// </summary>
         public long Height
         { get; set; }

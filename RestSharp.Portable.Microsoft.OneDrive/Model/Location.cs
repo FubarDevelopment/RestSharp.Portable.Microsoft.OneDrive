@@ -14,19 +14,19 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class Location
     {
         /// <summary>
-        /// The altitude (height), in feet, above sea level for the item.
+        /// Gets or sets the altitude (height), in feet, above sea level for the item.
         /// </summary>
         public decimal? Altitude
         { get; set; }
 
         /// <summary>
-        /// The latitude, in decimal, for the item.
+        /// Gets or sets the latitude, in decimal, for the item.
         /// </summary>
         public decimal? Latitude
         { get; set; }
 
         /// <summary>
-        /// The longitude, in decimal, for the item.
+        /// Gets or sets the longitude, in decimal, for the item.
         /// </summary>
         public decimal? Longitude
         { get; set; }

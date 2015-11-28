@@ -15,25 +15,25 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class Drive
     {
         /// <summary>
-        /// The unique identifier of the drive.
+        /// Gets or sets the unique identifier of the drive.
         /// </summary>
         public string Id
         { get; set; }
 
         /// <summary>
-        /// Enumerated value that identifies the type of drive account.
+        /// Gets or sets the enumerated value that identifies the type of drive account.
         /// </summary>
         public DriveType DriveType
         { get; set; }
 
         /// <summary>
-        /// The user account that owns the drive.
+        /// Gets or sets the user account that owns the drive.
         /// </summary>
         public IdentitySet Owner
         { get; set; }
 
         /// <summary>
-        /// Information about the drive's storage space quota.
+        /// Gets or sets the information about the drive's storage space quota.
         /// </summary>
         public Quota Quota
         { get; set; }

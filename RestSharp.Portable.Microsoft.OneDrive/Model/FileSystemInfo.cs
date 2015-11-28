@@ -21,13 +21,13 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class FileSystemInfo
     {
         /// <summary>
-        /// The UTC date and time the file was created on a client.
+        /// Gets or sets the UTC date and time the file was created on a client.
         /// </summary>
         public DateTimeOffset? CreatedDateTime
         { get; set; }
 
         /// <summary>
-        /// The UTC date and time the file was last modified on a client.
+        /// Gets or sets the UTC date and time the file was last modified on a client.
         /// </summary>
         public DateTimeOffset? LastModifiedDateTime
         { get; set; }

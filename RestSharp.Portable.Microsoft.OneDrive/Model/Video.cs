@@ -14,25 +14,25 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class Video
     {
         /// <summary>
-        /// Bit rate of the video in bits per second.
+        /// Gets or sets the bit rate of the video in bits per second.
         /// </summary>
         public decimal? Bitrate
         { get; set; }
 
         /// <summary>
-        /// Duration of the file in milliseconds.
+        /// Gets or sets the duration of the file in milliseconds.
         /// </summary>
         public decimal? Duration
         { get; set; }
 
         /// <summary>
-        /// Height of the video, in pixels.
+        /// Gets or sets the height of the video, in pixels.
         /// </summary>
         public decimal Height
         { get; set; }
 
         /// <summary>
-        /// Width of the video, in pixels.
+        /// Gets or sets the width of the video, in pixels.
         /// </summary>
         public decimal Width
         { get; set; }

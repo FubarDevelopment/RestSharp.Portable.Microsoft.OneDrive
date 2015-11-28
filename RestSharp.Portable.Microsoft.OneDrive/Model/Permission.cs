@@ -20,25 +20,25 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class Permission
     {
         /// <summary>
-        /// The unique identifier of the permission among all permissions on the item. Read Only.
+        /// Gets or sets the unique identifier of the permission among all permissions on the item. Read Only.
         /// </summary>
         public string Id
         { get; set; }
 
         /// <summary>
-        /// The type of permission, e.g. <code>read</code>. See below for the full list of roles.
+        /// Gets or sets the type of permission, e.g. <code>read</code>. See below for the full list of roles.
         /// </summary>
         public List<string> Roles
         { get; set; }
 
         /// <summary>
-        /// Provides the link details of the current permission, if it is a link type permissions. Read Only.
+        /// Gets or sets the link details of the current permission, if it is a link type permissions. Read Only.
         /// </summary>
         public SharingLink Link
         { get; set; }
 
         /// <summary>
-        /// Provides a reference to the ancestor of the current permission, if it is inherited from an ancestor. Read Only.
+        /// Gets or sets a reference to the ancestor of the current permission, if it is inherited from an ancestor. Read Only.
         /// </summary>
         public ItemReference InheritedFrom
         { get; set; }

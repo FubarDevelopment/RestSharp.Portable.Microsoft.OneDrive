@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="RestSharp.Portable.Microsoft.OneDrive.nuspec" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="crypto, Version=1.7.0.0, Culture=neutral, PublicKeyToken=52d7d8cd84e8295f, processorArchitecture=MSIL">

@@ -17,49 +17,49 @@ namespace RestSharp.Portable.Microsoft.OneDrive.Model
     public class Photo
     {
         /// <summary>
-        /// Represents the date and time the photo was taken.
+        /// Gets or sets the date and time the photo was taken.
         /// </summary>
         public DateTimeOffset? TakenDateTime
         { get; set; }
 
         /// <summary>
-        /// Camera manufacturer.
+        /// Gets or sets the camera manufacturer.
         /// </summary>
         public string CameraMake
         { get; set; }
 
         /// <summary>
-        /// Camera model.
+        /// Gets or sets the camera model.
         /// </summary>
         public string CameraModel
         { get; set; }
 
         /// <summary>
-        /// The F-stop value from the camera.
+        /// Gets or sets the F-stop value from the camera.
         /// </summary>
         public decimal? FNumber
         { get; set; }
 
         /// <summary>
-        /// The denominator for the exposure time fraction from the camera.
+        /// Gets or sets the denominator for the exposure time fraction from the camera.
         /// </summary>
         public decimal? ExposureDenominator
         { get; set; }
 
         /// <summary>
-        /// The numerator for the exposure time fraction from the camera.
+        /// Gets or sets the numerator for the exposure time fraction from the camera.
         /// </summary>
         public decimal? ExposureNumerator
         { get; set; }
 
         /// <summary>
-        /// The focal length from the camera.
+        /// Gets or sets the focal length from the camera.
         /// </summary>
         public decimal? FocalLength
         { get; set; }
 
         /// <summary>
-        /// The ISO value from the camera.
+        /// Gets or sets the ISO value from the camera.
         /// </summary>
         public decimal Iso
         { get; set; }
